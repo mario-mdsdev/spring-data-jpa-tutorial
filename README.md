@@ -1,4 +1,4 @@
-# My implementation of Spring Data JPA
+# My getting started of Spring Data JPA
 ## Tutorial from Daily Code Buffer
 
 ## Technologies
