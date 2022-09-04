@@ -20,6 +20,7 @@ import javax.persistence.*;
         )
 )
 public class Student {
+
     @Id
     @SequenceGenerator(
             name = "student_sequence",
