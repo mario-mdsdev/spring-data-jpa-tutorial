@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.mdsdev</groupId>
 	<artifactId>spring-data-jpa-tutorial</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>spring-data-jpa-tutorial</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -42,6 +42,7 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<finalName>spring-data-jpa-tutorial</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

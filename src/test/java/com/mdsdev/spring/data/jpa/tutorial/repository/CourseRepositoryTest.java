@@ -46,9 +46,9 @@ class CourseRepositoryTest {
         final Pageable firstPageWithThreeRecords = PageRequest.of(0 , 3);
         final Pageable secondPageWithTwoRecords = PageRequest.of(1, 2);
 
-        final List<Course> courses = repository.findAll(secondPageWithTwoRecords).getContent();
-        final long totalElements = repository.findAll(secondPageWithTwoRecords).getTotalElements();
-        final int totalPages = repository.findAll(secondPageWithTwoRecords).getTotalPages();
+        final List<Course> courses = repository.findAll(firstPageWithThreeRecords).getContent();
+        final long totalElements = repository.findAll(firstPageWithThreeRecords).getTotalElements();
+        final int totalPages = repository.findAll(firstPageWithThreeRecords).getTotalPages();
 
         System.out.println("totalPages = " + totalPages);
         System.out.println("totalElements = " + totalElements);

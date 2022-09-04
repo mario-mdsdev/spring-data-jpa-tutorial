@@ -46,7 +46,8 @@ public class Course {
     private Teacher teacher;
 
     @ManyToMany(
-            cascade = CascadeType.ALL
+            cascade = CascadeType.ALL,
+            fetch = FetchType.EAGER
     )
     @JoinTable(
             name = "student_course_map",
