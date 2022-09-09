@@ -1,7 +1,7 @@
-package com.mdsdev.spring.data.jpa.tutorial.repository;
+package br.com.mdsdev.spring.data.jpa.repository;
 
-import com.mdsdev.spring.data.jpa.tutorial.entity.Guardian;
-import com.mdsdev.spring.data.jpa.tutorial.entity.Student;
+import br.com.mdsdev.spring.data.jpa.entity.Guardian;
+import br.com.mdsdev.spring.data.jpa.entity.Student;
 import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

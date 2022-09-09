@@ -1,4 +1,4 @@
-package com.mdsdev.spring.data.jpa.tutorial.entity;
+package br.com.mdsdev.spring.data.jpa.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

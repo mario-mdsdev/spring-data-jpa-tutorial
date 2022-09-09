@@ -1,6 +1,6 @@
-package com.mdsdev.spring.data.jpa.tutorial.repository;
+package br.com.mdsdev.spring.data.jpa.repository;
 
-import com.mdsdev.spring.data.jpa.tutorial.entity.Teacher;
+import br.com.mdsdev.spring.data.jpa.entity.Teacher;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
